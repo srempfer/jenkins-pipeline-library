@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+ 
+// follow the structure as dictated by Jenkins:
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['vars']
+        }
+        resources {
+            srcDirs = ['resources']
+        }
+    }
+}

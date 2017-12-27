@@ -1,0 +1,9 @@
+**/.project
+**/.settings/**
+**/.classpath
+**/.factorypath
+**/.springBeans
+**/target/**
+**/build/**
+**/.gradle/**
+**/bin/**
